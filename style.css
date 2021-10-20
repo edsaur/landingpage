@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: sans-serif;
+}
+/* HEADER */
+.header {
+  display: flex;
+  background: #1F2937; 
+  flex-direction: column;
+  color: #F9FAF8;
+  padding: 1cm 10em;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav {
+  font-family: 'Anton', cursive;
+  font-size: 24px;
+  color: #dbdad5;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+gap: 16px;
+}
+
+a {
+  color: #F9FAF8;
+  text-decoration: none;
+}
+
+/* CONTENT BAR */
+.content-1 {
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  gap: 5%;
+}
+.content-left {
+  display: flex;
+  flex-flow:column nowrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.title {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 60px;
+}
+
+#btn-1 {
+  width: 40%;
+  height: 45px;
+  border-radius: 8.5px;
+  background: #1770ff;
+  color : white;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* EXCHANGE LIST */
+
+.title-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.exchanges {
+  background: #F9FAF8;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.ex-1 {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.ex-img {
+  height: 250px;
+}
+
