@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,22 @@
   <title>Landing Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header class="header">
     <nav class="nav-bar">
       <div class="left-nav">
-      <h1>DOGECOIN</h1>
-    </div>
+        <a href="#home"><h1 id="home">DOGECOIN</h1></a>
+      </div>
 
-    <div class="right-nav">
-      <ul class="links">
-        <li><a href="#">Woofpaper</a></li>
-        <li><a href="#">Where to Buy?</a></li>
-        <li><a href="#">such doge</a></li>
-      </ul>
-    </div>
+      <div class="right-nav">
+        <ul class="links">
+          <li><a href="https://en.wikipedia.org/wiki/Dogecoin">Whut's Dogecoin?</a></li>
+          <li><a href="#exchanges">Where to Buy?</a></li>
+          <li><a href="https://random.dog/">such doge</a></li>
+        </ul>
+      </div>
     </nav>
 
     <div class="content-1">
@@ -29,38 +31,92 @@
         <h1 class="title">Dogecoin to The Moon!</h1>
         <p>The Mission of putting a DOGECOIN to the moon is slowly becoming a reality!</p>
         <p>Sign Up to get free DOGECOIN</p>
-        <button type="button" id="btn-1">Sign up</button>
+        <button type="button" class="btn-1">Sign up</button>
       </div>
       <div class="content-right">
-        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/XA6KIXE6FBFM5EWSA25JI5YAU4.jpg" alt="an image of a DOGE" id="doge">
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/XA6KIXE6FBFM5EWSA25JI5YAU4.jpg"
+          alt="an image of a DOGE" id="doge">
       </div>
     </div>
   </header>
 
   <article>
-    <section class="exchanges">
+
+    <section class="exchanges" id="exchanges">
       <div class="title-2">
-      <h2>Where to buy Dogecoin?</h2>
-    </div>  
-      <div class="ex-1"> 
+        <h2 class="t-2">Where to BUY and TRADE Dogecoin?</h2>
+      </div>
+      <div class="ex-1">
+
         <div>
-          <img src="https://www.logo.wine/a/logo/Binance/Binance-Icon-Logo.wine.svg" alt="logo of binance exchange" class="ex-img">
-          <h2 class="txt-ex">Binance</h2>
+          <a href="https://www.binance.com/en/trade/DOGE_USDT" class="exchange-site"><img
+              src="https://www.logo.wine/a/logo/Binance/Binance-Icon-Logo.wine.svg" alt="logo of binance exchange"
+              class="ex-img"></a>
+          <a href="https://www.binance.com/en/trade/DOGE_USDT">
+            <h2 class="txt-ex">Binance</h2>
+          </a>
         </div>
 
         <div>
-          <img src="https://s2.coinmarketcap.com/static/img/coins/200x200/2087.png" alt="logo of Kucoin" lass="ex-img"> 
-          <h2 class="txt-ex">Kucoin</h2>
+          <a href="https://trade.kucoin.com/DOGE-USDT" target="_blank">
+            <img src="https://pbs.twimg.com/profile_images/1447472237523525636/O_VcyD_2.png" alt="logo of Kucoin"
+              class="ex-img">
+            <h2 class="txt-ex">Kucoin</h2>
+          </a>
         </div>
+
         <div>
-          <img src="https://lh3.googleusercontent.com/proxy/IF-S6SAPGTZMjvwhXcNZ73LUFgG5293Vh0vYTMlQknm00fQ5QHgqj1P8MD1EtABdR-kslXgGZF62kywjmQBBnP9O9_CCDTnqQIGEwsbeM1TCiQvFcz5dwtvcWYo" alt="logo of coinbase" class="ex-img"> 
-          <h2 class="txt-ex">Coinbase</h2>
+          <a href="https://www.coinbase.com/price/dogecoin" target="_blank">
+            <img
+              src="https://lh3.googleusercontent.com/proxy/ywwWlzNdAMXKPOJ2OkIrqhFcTgetiwtkozJAqZP6bi2oY3MlF8yX3Zj_BrUU_N5lQ2qJHKDmB-kolPSsNHXttcRBojEM1hiAKMYW_RRdP7CFTEOa_41_6LNpAKM"
+              alt="logo of coinbase" class="ex-img">
+            <h2 class="txt-ex">Coinbase</h2>
+          </a>
         </div>
-          <div>
-          <img src="https://cryptologos.cc/logos/ftx-token-ftt-logo.png" alt="logo of ftx" class="ex-img"> <h2 class="txt-ex">FTX Exchange</h2>
-          </div>
+
+
+        <div>
+          <a href="https://ftx.com/en/trade/DOGE/USD" target="_blank">
+            <img src="https://cryptologos.cc/logos/ftx-token-ftt-logo.png" alt="logo of ftx" class="ex-img">
+            <h2 class="txt-ex">FTX Exchange</h2>
+          </a>
         </div>
+      </div>
+    </section>
+
+    <section class="quotes">\
+      <div class="quote-div">
+        <p class="para-quote"><q
+            cite="https://www.cnet.com/news/elon-musk-talks-mars-neuralink-dogecoin-in-surprise-clubhouse-interview/">Arguably
+            the most entertaining outcome, the most ironic outcome would be that <strong>'Dogecoin'</strong> becomes <strong><br>the currency of Earth
+            of the FUTURE.</strong</q></p>
+
+        <div class="name">
+          <p>- Elon Musk</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="call">
+      <div class="call-div">
+        <div>
+        <h3 class="time">It's time to be a part of this revolution!</h3>
+        <p class="sub-call">Take a piece of DOGE let's fly to the MOON!</p>
+        <div class="btn-right">
+          <button type="button" class="btn-2">Sign-up</button>
+  
+        </div>
+      </div>
+
+     
     </section>
   </article>
+
+  <footer class="footer">
+    <div class="footer-div">
+      <h4>Copyright © Dogecoin 2021</h4>
+    </div>
+  </footer>
 </body>
+
 </html>

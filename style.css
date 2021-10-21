@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-
   font-family: sans-serif;
 }
 /* HEADER */
@@ -67,11 +69,11 @@ a {
   font-size: 60px;
 }
 
-#btn-1 {
+.btn-1 {
   width: 40%;
   height: 45px;
   border-radius: 8.5px;
-  background: #1770ff;
+  background: #3882F6;
   color : white;
 }
 img {
@@ -84,9 +86,12 @@ img {
 .title-2 {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-  font-size: 30px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  font-size: 3.0em;
+  font-family: 'Bebas Neue', sans-serif;
 }
+
 
 .exchanges {
   background: #F9FAF8;
@@ -102,9 +107,100 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
+gap: 16px;
 }
 
 .ex-img {
-  height: 250px;
+  height: 200px;
 }
 
+.txt-ex {
+  font-family: 'Oswald', sans-serif;
+  color: #2c9c9e;
+}
+
+
+/* Quote BAR */
+.quotes {
+  background: #E5E7EB;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.quote-div {
+  color: #1F2937;
+  text-align: center;
+  padding: 100px;
+}
+
+.para-quote {
+  font-size: 3.8em;
+  align-self: flex-start;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+/* Call to action bar */
+.call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+}
+.call-div {
+  display: flex;
+  flex-basis: 75%;
+  gap: 356px;
+  background: #3882F6;
+  margin: 50px;
+  padding: 55px 150px;
+  border-radius: 20px;
+}
+
+.time {
+  font-size: 3.2em;
+  font-family: 'Bebas Neue', cursive;;
+}
+
+.sub-call {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+}
+
+.btn-right { 
+  margin-top: 20px;
+}
+
+.btn-2 {
+  width: 20%;
+  height: 45px;
+  border-color: #F9FAF8;
+  border-radius: 8.5px;
+  background: #3882F6;
+  color: #F9FAF8;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+}
+
+/* FOOTER BAR */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1F2937;
+}
+
+.footer-div {
+  padding: 45px;
+  color: #E5E7EB;
+}
