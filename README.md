@@ -1,14 +1,11 @@
-# Landing Page NOTES
+# DOGECoin Landing Page
 
-// HEADER //
+Hi, this is one of my projects under WebDevelopment (HTML5 and CSS3).
+The style here mostly contains the "flex-box" property.
 
-- The semantic elements should have a class that has a flexbox element on it.
-- There should be a nav-bar.
-- The content is should be inside header.
-- Each should have a "left" and "right" div.
+In terms of responsiveness of the site, take note that I will take care of that soon as I finish
+Reponsive Web Design lesson soon.
 
-- One Header Logo, Three header links
+Thank you for viewing this! :D
 
----
-
-## // CONTENT //
+**EVERY THING I SAID IN THE SITE IS NOT A FINANCIAL ADVICE :D**
